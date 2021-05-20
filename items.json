@@ -73,7 +73,7 @@
         }
     },
     {
-        "title": "Self-Timer",
+        "title": "Self Timer",
         "subtitle": "Take a screenshot after a specified delay to capture the perfect moment.",
         "arg": "self-timer",
         "icon": {
