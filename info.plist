@@ -36,7 +36,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>753CD63D-C047-4BCF-AA9D-B0F6B9CAB86B</string>
+				<string>4C791C17-8EEE-4703-B1DE-3064D926E9F6</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -72,29 +72,10 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>cleanshot://{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>753CD63D-C047-4BCF-AA9D-B0F6B9CAB86B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>argumenttreatemptyqueryasnil</key>
 				<true/>
 				<key>argumenttrimmode</key>
@@ -165,6 +146,29 @@
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>1CD9FEA0-9F30-4F5D-A586-0E232DFE87F6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open "cleanshot://$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4C791C17-8EEE-4703-B1DE-3064D926E9F6</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -279,10 +283,14 @@
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
-		<key>753CD63D-C047-4BCF-AA9D-B0F6B9CAB86B</key>
+		<key>4C791C17-8EEE-4703-B1DE-3064D926E9F6</key>
 		<dict>
+			<key>note</key>
+			<string>open "cleanshot://$1"
+
+Doing this instead of "Open URL" because the "Toggle Desktop Icons" url doesn't work properly with that.</string>
 			<key>xpos</key>
-			<integer>335</integer>
+			<integer>325</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
