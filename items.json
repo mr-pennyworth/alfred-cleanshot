@@ -6,7 +6,8 @@
       "arg": "capture-area",
       "icon": {
         "path": "icons/capture-area.png"
-      }
+      },
+      "uid": "capture-area"
     },
     {
       "title": "Capture Fullscreen",
@@ -14,7 +15,8 @@
       "arg": "capture-fullscreen",
       "icon": {
         "path": "icons/capture-fullscreen.png"
-      }
+      },
+      "uid": "capture-fullscreen"
     },
     {
       "title": "Capture Previous Area",
@@ -22,7 +24,8 @@
       "arg": "capture-previous-area",
       "icon": {
         "path": "icons/capture-previous-area.png"
-      }
+      },
+      "uid": "capture-previous-area"
     },
     {
       "title": "Capture Window",
@@ -30,7 +33,8 @@
       "arg": "capture-window",
       "icon": {
         "path": "icons/capture-window.png"
-      }
+      },
+      "uid": "capture-window"
     },
     {
       "title": "Open From Clipboard",
@@ -38,7 +42,8 @@
       "arg": "open-from-clipboard",
       "icon": {
         "path": "icons/open-from-clipboard.png"
-      }
+      },
+      "uid": "open-from-clipboard"
     },
     {
       "title": "Pin to the Screen",
@@ -46,7 +51,8 @@
       "arg": "pin",
       "icon": {
         "path": "icons/pin.png"
-      }
+      },
+      "uid": "pin"
     },
     {
       "title": "Record Screen",
@@ -54,7 +60,8 @@
       "arg": "record-screen",
       "icon": {
         "path": "icons/record-screen.png"
-      }
+      },
+      "uid": "record-screen"
     },
     {
       "title": "Restore Recently Closed File",
@@ -62,7 +69,8 @@
       "arg": "restore-recently-closed",
       "icon": {
         "path": "icons/restore-recently-closed.png"
-      }
+      },
+      "uid": "restore-recently-closed"
     },
     {
       "title": "Scrolling Capture",
@@ -70,7 +78,8 @@
       "arg": "scrolling-capture",
       "icon": {
         "path": "icons/scrolling-capture.png"
-      }
+      },
+      "uid": "scrolling-capture"
     },
     {
       "title": "Self Timer",
@@ -78,7 +87,8 @@
       "arg": "self-timer",
       "icon": {
         "path": "icons/self-timer.png"
-      }
+      },
+      "uid": "self-timer"
     },
     {
       "title": "Toggle Desktop Icons",
@@ -86,7 +96,8 @@
       "arg": "toggle-desktop-icons",
       "icon": {
         "path": "icons/toggle-desktop-icons.png"
-      }
+      },
+      "uid": "toggle-desktop-icons"
     }
   ]
 }
