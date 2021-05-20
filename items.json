@@ -1,92 +1,92 @@
 {
   "items": [
     {
-        "title": "Capture Area",
-        "subtitle": "Take a screenshot of a specific area on your screen.",
-        "arg": "capture-area",
-        "icon": {
-            "path": "icons/capture-area.png"
-        }
+      "title": "Capture Area",
+      "subtitle": "Take a screenshot of a specific area on your screen.",
+      "arg": "capture-area",
+      "icon": {
+        "path": "icons/capture-area.png"
+      }
     },
     {
-        "title": "Capture Fullscreen",
-        "subtitle": "Take a screenshot of your screen.",
-        "arg": "capture-fullscreen",
-        "icon": {
-            "path": "icons/capture-fullscreen.png"
-        }
+      "title": "Capture Fullscreen",
+      "subtitle": "Take a screenshot of your screen.",
+      "arg": "capture-fullscreen",
+      "icon": {
+        "path": "icons/capture-fullscreen.png"
+      }
     },
     {
-        "title": "Capture Previous Area",
-        "subtitle": "Take a screenshot of the previously specified area of your screen.",
-        "arg": "capture-previous-area",
-        "icon": {
-            "path": "icons/capture-previous-area.png"
-        }
+      "title": "Capture Previous Area",
+      "subtitle": "Take a screenshot of the previously specified area of your screen.",
+      "arg": "capture-previous-area",
+      "icon": {
+        "path": "icons/capture-previous-area.png"
+      }
     },
     {
-        "title": "Capture Window",
-        "subtitle": "Take a screenshot of a window.",
-        "arg": "capture-window",
-        "icon": {
-            "path": "icons/capture-window.png"
-        }
+      "title": "Capture Window",
+      "subtitle": "Take a screenshot of a window.",
+      "arg": "capture-window",
+      "icon": {
+        "path": "icons/capture-window.png"
+      }
     },
     {
-        "title": "Open From Clipboard",
-        "subtitle": "Open screenshot that is currently in the clipboard.",
-        "arg": "open-from-clipboard",
-        "icon": {
-            "path": "icons/open-from-clipboard.png"
-        }
+      "title": "Open From Clipboard",
+      "subtitle": "Open screenshot that is currently in the clipboard.",
+      "arg": "open-from-clipboard",
+      "icon": {
+        "path": "icons/open-from-clipboard.png"
+      }
     },
     {
-        "title": "Pin to the Screen",
-        "subtitle": "Pin a screenshot to the screen.",
-        "arg": "pin",
-        "icon": {
-            "path": "icons/pin.png"
-        }
+      "title": "Pin to the Screen",
+      "subtitle": "Pin a screenshot to the screen.",
+      "arg": "pin",
+      "icon": {
+        "path": "icons/pin.png"
+      }
     },
     {
-        "title": "Record Screen",
-        "subtitle": "Start a screen recording and save it as a video or an optimized GIF file.",
-        "arg": "record-screen",
-        "icon": {
-            "path": "icons/record-screen.png"
-        }
+      "title": "Record Screen",
+      "subtitle": "Start a screen recording and save it as a video or an optimized GIF file.",
+      "arg": "record-screen",
+      "icon": {
+        "path": "icons/record-screen.png"
+      }
     },
     {
-        "title": "Restore Recently Closed File",
-        "subtitle": "Restore the recently closed file.",
-        "arg": "restore-recently-closed",
-        "icon": {
-            "path": "icons/restore-recently-closed.png"
-        }
+      "title": "Restore Recently Closed File",
+      "subtitle": "Restore the recently closed file.",
+      "arg": "restore-recently-closed",
+      "icon": {
+        "path": "icons/restore-recently-closed.png"
+      }
     },
     {
-        "title": "Scrolling Capture",
-        "subtitle": "Capture any scrollable content.",
-        "arg": "scrolling-capture",
-        "icon": {
-            "path": "icons/scrolling-capture.png"
-        }
+      "title": "Scrolling Capture",
+      "subtitle": "Capture any scrollable content.",
+      "arg": "scrolling-capture",
+      "icon": {
+        "path": "icons/scrolling-capture.png"
+      }
     },
     {
-        "title": "Self Timer",
-        "subtitle": "Take a screenshot after a specified delay to capture the perfect moment.",
-        "arg": "self-timer",
-        "icon": {
-            "path": "icons/self-timer.png"
-        }
+      "title": "Self Timer",
+      "subtitle": "Take a screenshot after a specified delay to capture the perfect moment.",
+      "arg": "self-timer",
+      "icon": {
+        "path": "icons/self-timer.png"
+      }
     },
     {
-        "title": "Toggle Desktop Icons",
-        "subtitle": "Hide clutter on your Desktop.",
-        "arg": "toggle-desktop-icons",
-        "icon": {
-            "path": "icons/toggle-desktop-icons.png"
-        }
+      "title": "Toggle Desktop Icons",
+      "subtitle": "Hide clutter on your Desktop.",
+      "arg": "toggle-desktop-icons",
+      "icon": {
+        "path": "icons/toggle-desktop-icons.png"
+      }
     }
   ]
 }
