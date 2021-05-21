@@ -46,8 +46,17 @@
       "uid": "open-from-clipboard"
     },
     {
+      "title": "Annotate Image",
+      "subtitle": "Annotate and edit an image.",
+      "arg": "annotate",
+      "icon": {
+        "path": "icons/annotate.png"
+      },
+      "uid": "annotate"
+    },
+    {
       "title": "Pin to the Screen",
-      "subtitle": "Pin a screenshot to the screen.",
+      "subtitle": "Pin an image to the screen.",
       "arg": "pin",
       "icon": {
         "path": "icons/pin.png"

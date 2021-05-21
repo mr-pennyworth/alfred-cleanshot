@@ -19,11 +19,50 @@
 				<false/>
 			</dict>
 		</array>
+		<key>1D8804FD-F9E6-457D-83D8-E3AEA432BA1E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7C0E8AEE-D71D-4139-9F5E-4C52F2CF948D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1DF420FC-83A9-4859-B1C6-B58286A5D924</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B0B38CAD-6949-4F11-9B8E-B53F7538F5EB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>1FE4B488-8FF6-4E08-8781-B53953275FAE</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>3BEA35E8-DE29-4852-AF5C-0BD67CE23B8A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>39F17BB0-D9AF-4B90-8ED8-AC64035A6472</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1D8804FD-F9E6-457D-83D8-E3AEA432BA1E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -49,7 +88,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>4C791C17-8EEE-4703-B1DE-3064D926E9F6</string>
+				<string>7CA2D242-B928-4A46-A566-42187A663B76</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -63,6 +102,56 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>A3937EC6-8CC7-42A1-AD6E-FDA4FC5B73F4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7CA2D242-B928-4A46-A566-42187A663B76</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>39F17BB0-D9AF-4B90-8ED8-AC64035A6472</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>5D23E821-1699-46A7-B7FF-4C21CB9F5898</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>4C791C17-8EEE-4703-B1DE-3064D926E9F6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F0B2ED3B-F72E-4DBC-82EE-F355ABBD68DF</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1DF420FC-83A9-4859-B1C6-B58286A5D924</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B0B38CAD-6949-4F11-9B8E-B53F7538F5EB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3BEA35E8-DE29-4852-AF5C-0BD67CE23B8A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -95,6 +184,165 @@
 	<string>CleanShot</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<false/>
+				<key>filetypes</key>
+				<array>
+					<string>public.jpeg</string>
+					<string>public.png</string>
+				</array>
+				<key>name</key>
+				<string>CleanShot: Pin to Screen</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>E7E3A0BD-6513-455B-A6B5-0AB88A9C96B1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search Image File to Pin...</string>
+				<key>types</key>
+				<array>
+					<string>public.jpeg</string>
+					<string>public.png</string>
+				</array>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>1D8804FD-F9E6-457D-83D8-E3AEA432BA1E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>39F17BB0-D9AF-4B90-8ED8-AC64035A6472</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>action</key>
+					<string>share-extension-pin</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>7C0E8AEE-D71D-4139-9F5E-4C52F2CF948D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open "cleanshot://$action?filepath=$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A3937EC6-8CC7-42A1-AD6E-FDA4FC5B73F4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -147,29 +395,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>open "cleanshot://$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>4C791C17-8EEE-4703-B1DE-3064D926E9F6</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -179,11 +404,11 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>18</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1835008</integer>
+				<integer>0</integer>
 				<key>hotstring</key>
-				<string>1</string>
+				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -201,52 +426,15 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>acceptsmulti</key>
-				<false/>
-				<key>filetypes</key>
-				<array>
-					<string>public.jpeg</string>
-					<string>public.png</string>
-				</array>
-				<key>name</key>
-				<string>CleanShot: Pin to Screen</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>E7E3A0BD-6513-455B-A6B5-0AB88A9C96B1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<true/>
-				<key>variables</key>
-				<dict>
-					<key>action</key>
-					<string>share-extension-pin</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>7C0E8AEE-D71D-4139-9F5E-4C52F2CF948D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>open "cleanshot://$action?filepath=$1"</string>
+				<string># Doing this instead of "Open URL" because the
+# "Toggle Desktop Icons" url doesn't work properly with that.
+
+open "cleanshot://$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -257,29 +445,132 @@
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>A3937EC6-8CC7-42A1-AD6E-FDA4FC5B73F4</string>
+			<string>4C791C17-8EEE-4703-B1DE-3064D926E9F6</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>acceptsmulti</key>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>pin</string>
+						<key>outputlabel</key>
+						<string>pin</string>
+						<key>uid</key>
+						<string>5D23E821-1699-46A7-B7FF-4C21CB9F5898</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string>annotate</string>
+						<key>outputlabel</key>
+						<string>else</string>
+						<key>uid</key>
+						<string>F0B2ED3B-F72E-4DBC-82EE-F355ABBD68DF</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>annotate</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>7CA2D242-B928-4A46-A566-42187A663B76</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
 				<false/>
-				<key>filetypes</key>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search Image File to Annotate and Edit...</string>
+				<key>types</key>
 				<array>
 					<string>public.jpeg</string>
 					<string>public.png</string>
 				</array>
-				<key>name</key>
-				<string>CleanShot: Annotate</string>
+				<key>withspace</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
+			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
-			<string>1FE4B488-8FF6-4E08-8781-B53953275FAE</string>
+			<string>B0B38CAD-6949-4F11-9B8E-B53F7538F5EB</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -301,6 +592,43 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>1DF420FC-83A9-4859-B1C6-B58286A5D924</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<false/>
+				<key>filetypes</key>
+				<array>
+					<string>public.jpeg</string>
+					<string>public.png</string>
+				</array>
+				<key>name</key>
+				<string>CleanShot: Annotate</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>1FE4B488-8FF6-4E08-8781-B53953275FAE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -311,60 +639,95 @@
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>220</integer>
+		</dict>
+		<key>1D8804FD-F9E6-457D-83D8-E3AEA432BA1E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>475</integer>
+			<key>ypos</key>
+			<integer>115</integer>
+		</dict>
+		<key>1DF420FC-83A9-4859-B1C6-B58286A5D924</key>
+		<dict>
+			<key>note</key>
+			<string>clear {query}</string>
+			<key>xpos</key>
+			<integer>410</integer>
+			<key>ypos</key>
+			<integer>355</integer>
 		</dict>
 		<key>1FE4B488-8FF6-4E08-8781-B53953275FAE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>475</integer>
 			<key>ypos</key>
-			<integer>240</integer>
+			<integer>430</integer>
+		</dict>
+		<key>39F17BB0-D9AF-4B90-8ED8-AC64035A6472</key>
+		<dict>
+			<key>note</key>
+			<string>clear {query}</string>
+			<key>xpos</key>
+			<integer>410</integer>
+			<key>ypos</key>
+			<integer>145</integer>
 		</dict>
 		<key>3BEA35E8-DE29-4852-AF5C-0BD67CE23B8A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>170</integer>
+			<integer>645</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>355</integer>
 		</dict>
 		<key>4327B136-2FAD-458C-8C88-1F2F388260A1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>170</integer>
+			<integer>155</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>220</integer>
 		</dict>
 		<key>4C791C17-8EEE-4703-B1DE-3064D926E9F6</key>
 		<dict>
-			<key>note</key>
-			<string>open "cleanshot://$1"
-
-Doing this instead of "Open URL" because the "Toggle Desktop Icons" url doesn't work properly with that.</string>
 			<key>xpos</key>
-			<integer>415</integer>
+			<integer>475</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>220</integer>
 		</dict>
 		<key>7C0E8AEE-D71D-4139-9F5E-4C52F2CF948D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>170</integer>
+			<integer>645</integer>
 			<key>ypos</key>
-			<integer>155</integer>
+			<integer>145</integer>
+		</dict>
+		<key>7CA2D242-B928-4A46-A566-42187A663B76</key>
+		<dict>
+			<key>xpos</key>
+			<integer>305</integer>
+			<key>ypos</key>
+			<integer>225</integer>
 		</dict>
 		<key>A3937EC6-8CC7-42A1-AD6E-FDA4FC5B73F4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>280</integer>
+			<integer>735</integer>
 			<key>ypos</key>
-			<integer>180</integer>
+			<integer>220</integer>
+		</dict>
+		<key>B0B38CAD-6949-4F11-9B8E-B53F7538F5EB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>475</integer>
+			<key>ypos</key>
+			<integer>325</integer>
 		</dict>
 		<key>E7E3A0BD-6513-455B-A6B5-0AB88A9C96B1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>10</integer>
+			<integer>475</integer>
 			<key>ypos</key>
-			<integer>125</integer>
+			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>version</key>
