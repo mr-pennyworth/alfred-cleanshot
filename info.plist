@@ -23,7 +23,20 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>42FB078E-ACEB-47DE-8D65-D8CDE06B9DD1</string>
+				<string>3BEA35E8-DE29-4852-AF5C-0BD67CE23B8A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3BEA35E8-DE29-4852-AF5C-0BD67CE23B8A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A3937EC6-8CC7-42A1-AD6E-FDA4FC5B73F4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -45,11 +58,24 @@
 				<false/>
 			</dict>
 		</array>
+		<key>7C0E8AEE-D71D-4139-9F5E-4C52F2CF948D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A3937EC6-8CC7-42A1-AD6E-FDA4FC5B73F4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>E7E3A0BD-6513-455B-A6B5-0AB88A9C96B1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>B2E6E1E2-3768-425D-9619-EBC49E1B343E</string>
+				<string>7C0E8AEE-D71D-4139-9F5E-4C52F2CF948D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -121,6 +147,29 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open "cleanshot://$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4C791C17-8EEE-4703-B1DE-3064D926E9F6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -152,29 +201,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>open "cleanshot://$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>4C791C17-8EEE-4703-B1DE-3064D926E9F6</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>acceptsmulti</key>
 				<false/>
 				<key>filetypes</key>
@@ -195,21 +221,45 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>cleanshot://share-extension-pin?filepath={query}</string>
-				<key>utf8</key>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
 				<true/>
+				<key>variables</key>
+				<dict>
+					<key>action</key>
+					<string>share-extension-pin</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>B2E6E1E2-3768-425D-9619-EBC49E1B343E</string>
+			<string>7C0E8AEE-D71D-4139-9F5E-4C52F2CF948D</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open "cleanshot://$action?filepath=$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A3937EC6-8CC7-42A1-AD6E-FDA4FC5B73F4</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -234,19 +284,20 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>cleanshot://share-extension-annotate?filepath={query}</string>
-				<key>utf8</key>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
 				<true/>
+				<key>variables</key>
+				<dict>
+					<key>action</key>
+					<string>share-extension-annotate</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>42FB078E-ACEB-47DE-8D65-D8CDE06B9DD1</string>
+			<string>3BEA35E8-DE29-4852-AF5C-0BD67CE23B8A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -269,12 +320,12 @@
 			<key>ypos</key>
 			<integer>240</integer>
 		</dict>
-		<key>42FB078E-ACEB-47DE-8D65-D8CDE06B9DD1</key>
+		<key>3BEA35E8-DE29-4852-AF5C-0BD67CE23B8A</key>
 		<dict>
 			<key>xpos</key>
 			<integer>170</integer>
 			<key>ypos</key>
-			<integer>240</integer>
+			<integer>270</integer>
 		</dict>
 		<key>4327B136-2FAD-458C-8C88-1F2F388260A1</key>
 		<dict>
@@ -290,16 +341,23 @@
 
 Doing this instead of "Open URL" because the "Toggle Desktop Icons" url doesn't work properly with that.</string>
 			<key>xpos</key>
-			<integer>325</integer>
+			<integer>415</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
-		<key>B2E6E1E2-3768-425D-9619-EBC49E1B343E</key>
+		<key>7C0E8AEE-D71D-4139-9F5E-4C52F2CF948D</key>
 		<dict>
 			<key>xpos</key>
 			<integer>170</integer>
 			<key>ypos</key>
-			<integer>125</integer>
+			<integer>155</integer>
+		</dict>
+		<key>A3937EC6-8CC7-42A1-AD6E-FDA4FC5B73F4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>280</integer>
+			<key>ypos</key>
+			<integer>180</integer>
 		</dict>
 		<key>E7E3A0BD-6513-455B-A6B5-0AB88A9C96B1</key>
 		<dict>
