@@ -8,6 +8,6 @@
 - [CleanShot X](https://cleanshot.com/) (version `3.5.1` or above)
 
 ### Screenshots
-![workflow](screenshots/workflow-editor.png)
 ![all actions](screenshots/actions-list.png)
 ![file actions](screenshots/file-actions.png)
+![workflow](screenshots/workflow-editor.png)
