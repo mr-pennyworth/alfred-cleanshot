@@ -49,7 +49,7 @@ cat <<EOF
       "subtitle": "Open screenshot that is currently in the clipboard.",
       "arg": "open-from-clipboard",
       "icon": {
-        "path": "icons/open-from-clipboard.png"
+        "path": "icons/annotate-clipboard.png"
       },
       "uid": "open-from-clipboard"
     },
