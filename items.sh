@@ -1,3 +1,6 @@
+#!/bin/bash
+
+cat <<EOF
 {
   "items": [
     {
@@ -110,3 +113,4 @@
     }
   ]
 }
+EOF

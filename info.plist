@@ -371,17 +371,17 @@
 				<key>runningsubtext</key>
 				<string>Loading...</string>
 				<key>script</key>
-				<string>cat items.json</string>
+				<string></string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>items.sh</string>
 				<key>subtext</key>
 				<string>Trigger CleanShot Actions [keyword: cs]</string>
 				<key>title</key>
 				<string>CleanShot</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>8</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
