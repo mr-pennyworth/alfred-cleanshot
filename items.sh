@@ -53,6 +53,15 @@ cat <<EOF
       },
       "uid": "open-from-clipboard"
     },
+    {
+      "title": "Pin to the Screen from Clipboard",
+      "subtitle": "Pin the image on clipboard to the screen.",
+      "arg": "share-extension-pin?filepath=$imgpath",
+      "icon": {
+        "path": "icons/pin-clipboard.png"
+      },
+      "uid": "pin-from-clipboard"
+    },
 EOF
 fi
 
