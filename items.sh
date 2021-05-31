@@ -39,6 +39,11 @@ cat <<EOF
       },
       "uid": "capture-window"
     },
+EOF
+
+imgpath="$(mktemp)"
+if ./pngpaste "$imgpath"; then
+cat <<EOF
     {
       "title": "Open From Clipboard",
       "subtitle": "Open screenshot that is currently in the clipboard.",
@@ -48,6 +53,10 @@ cat <<EOF
       },
       "uid": "open-from-clipboard"
     },
+EOF
+fi
+
+cat <<EOF
     {
       "title": "Annotate Image",
       "subtitle": "Annotate and edit an image.",
