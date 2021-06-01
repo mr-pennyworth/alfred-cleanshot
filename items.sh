@@ -1,5 +1,28 @@
 #!/bin/bash
 
+# CleanShot X hides desktop icons by creating
+# a window that spans the entire screen and has
+# the same background as the wallpaper.
+function desktopIconsVisible() {
+  osascript -l JavaScript <<EOF | grep 0 > /dev/null
+Application("System Events")
+  .applicationProcesses.byName("CleanShot X")
+  .windows()
+  .length
+EOF
+}
+
+if desktopIconsVisible; then
+  toggle_icons_title="Toggle Desktop Icons: Hide"
+  toggle_icons_subtitle="Hide clutter on your Desktop."
+  toggle_icons_icon_path="hide-desktop-icons.png"
+else
+  toggle_icons_title="Toggle Desktop Icons: Show"
+  toggle_icons_subtitle="Show previously hidden icons on your Desktop."
+  toggle_icons_icon_path="show-desktop-icons.png"
+fi
+
+
 cat <<EOF
 {
   "items": [
@@ -121,11 +144,11 @@ cat <<EOF
       "uid": "self-timer"
     },
     {
-      "title": "Toggle Desktop Icons",
-      "subtitle": "Hide clutter on your Desktop.",
+      "title": "$toggle_icons_title",
+      "subtitle": "$toggle_icons_subtitle",
       "arg": "toggle-desktop-icons",
       "icon": {
-        "path": "icons/toggle-desktop-icons.png"
+        "path": "icons/$toggle_icons_icon_path"
       },
       "uid": "toggle-desktop-icons"
     }
