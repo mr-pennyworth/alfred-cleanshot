@@ -75,7 +75,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A3937EC6-8CC7-42A1-AD6E-FDA4FC5B73F4</string>
+				<string>28F2FE1A-CFFB-485B-89F2-28C683D2ECD1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -101,7 +101,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A3937EC6-8CC7-42A1-AD6E-FDA4FC5B73F4</string>
+				<string>28F2FE1A-CFFB-485B-89F2-28C683D2ECD1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -323,29 +323,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>open "cleanshot://$action?filepath=$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>A3937EC6-8CC7-42A1-AD6E-FDA4FC5B73F4</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -448,6 +425,25 @@ open -g "cleanshot://$1"</string>
 			<string>4C791C17-8EEE-4703-B1DE-3064D926E9F6</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>cleanshot://{var:action}?filepath={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>28F2FE1A-CFFB-485B-89F2-28C683D2ECD1</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -708,7 +704,7 @@ open -g "cleanshot://$1"</string>
 			<key>ypos</key>
 			<integer>225</integer>
 		</dict>
-		<key>A3937EC6-8CC7-42A1-AD6E-FDA4FC5B73F4</key>
+		<key>28F2FE1A-CFFB-485B-89F2-28C683D2ECD1</key>
 		<dict>
 			<key>xpos</key>
 			<integer>735</integer>
@@ -733,7 +729,7 @@ open -g "cleanshot://$1"</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.0.4</string>
+	<string>0.0.5</string>
 	<key>webaddress</key>
 	<string>https://github.com/mr-pennyworth/alfred-cleanshot</string>
 </dict>
