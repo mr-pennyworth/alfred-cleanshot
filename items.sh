@@ -68,8 +68,8 @@ imgpath="$(mktemp)"
 if ./pngpaste "$imgpath"; then
 cat <<EOF
     {
-      "title": "Open From Clipboard",
-      "subtitle": "Open screenshot that is currently in the clipboard.",
+      "title": "Annotate Image from Clipboard",
+      "subtitle": "Annotate and edit the image on clipboard.",
       "arg": "open-from-clipboard",
       "icon": {
         "path": "icons/annotate-clipboard.png"
