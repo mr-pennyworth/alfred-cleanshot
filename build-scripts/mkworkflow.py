@@ -16,6 +16,7 @@ WF_FILES = [
   'A7DE7A70-B3E2-4531-9509-01F3BF4FE2DC.png',
   'B0B38CAD-6949-4F11-9B8E-B53F7538F5EB.png',
   'E7E3A0BD-6513-455B-A6B5-0AB88A9C96B1.png',
+  'desktop-icons-visible',
   'icon.png',
   'icons',
   'info.plist',
