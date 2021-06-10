@@ -1,0 +1,43 @@
+name: Build and Release
+
+on: [push, workflow_dispatch]
+
+jobs:
+  build-and-release:
+    name: Build and Release the Workflow
+    runs-on: macos-10.15
+    steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build App and Workflow
+        run: python3 build-scripts/mkworkflow.py
+
+      - name: Get Workflow Version
+        run: echo "WF_VERSION=$(plutil -extract version xml1 -o - info.plist | sed -n 's/.*<string>\(.*\)<\/string>.*/\1/p')" >> $GITHUB_ENV
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.WF_VERSION }}
+          release_name: ${{ env.WF_VERSION }}
+          draft: false
+          prerelease: false
+
+      - name: Get Workflow Filename
+        run: echo "WF_FILENAME=$(ls *.alfredworkflow)" >> $GITHUB_ENV
+
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./${{ env.WF_FILENAME }}
+          asset_name: ${{ env.WF_FILENAME }}
+          asset_content_type: application/zip
