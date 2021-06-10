@@ -11,7 +11,7 @@
 ### Screenshots
 ![all actions part 1](screenshots/actions-list-1.png)
 ![all actions part 2](screenshots/actions-list-2.png)
-![clipboard actions](screenshots/clipbord-actions-list.png)
+![clipboard actions](screenshots/clipboard-actions-list.png)
 ![file actions](screenshots/file-actions.png)
 
 ### Credits
