@@ -20,6 +20,7 @@ WF_FILES = [
   'icon.png',
   'icons',
   'info.plist',
+  'items.sh',
   'pngpaste',
   'README.md',
   'scripts',
