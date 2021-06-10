@@ -23,6 +23,15 @@ cat <<EOF
       "uid": "capture-area"
     },
     {
+      "title": "Capture Area and Pin to the Screen",
+      "subtitle": "Take a screenshot of a specific area and pin to the screen.",
+      "arg": "capture-area-and-pin",
+      "icon": {
+        "path": "icons/capture-area-and-pin.png"
+      },
+      "uid": "capture-area-and-pin"
+    },
+    {
       "title": "Capture Fullscreen",
       "subtitle": "Take a screenshot of your screen.",
       "arg": "capture-fullscreen",
