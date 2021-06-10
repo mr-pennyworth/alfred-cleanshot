@@ -76,6 +76,15 @@ cat <<EOF
       },
       "uid": "capture-window-and-pin"
     },
+    {
+      "title": "Capture Window and Annotate",
+      "subtitle": "Take a screenshot of a window and annotate.",
+      "arg": "capture-window-and-annotate",
+      "icon": {
+        "path": "icons/capture-window-and-annotate.png"
+      },
+      "uid": "capture-window-and-annotate"
+    },
 EOF
 
 if ./pngpaste /tmp/img.png; then
