@@ -59,6 +59,15 @@ cat <<EOF
       "uid": "capture-fullscreen-and-pin"
     },
     {
+      "title": "Capture Fullscreen and Annotate",
+      "subtitle": "Take a screenshot of your screen and annotate.",
+      "arg": "capture-fullscreen-and-annotate",
+      "icon": {
+        "path": "icons/capture-fullscreen-and-annotate.png"
+      },
+      "uid": "capture-fullscreen-and-annotate"
+    },
+    {
       "title": "Capture Previous Area",
       "subtitle": "Take a screenshot of the previously specified area of your screen.",
       "arg": "capture-previous-area",
