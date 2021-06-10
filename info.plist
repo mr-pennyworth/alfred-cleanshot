@@ -660,6 +660,13 @@ open -g "cleanshot://$1"</string>
 			<key>ypos</key>
 			<integer>430</integer>
 		</dict>
+		<key>28F2FE1A-CFFB-485B-89F2-28C683D2ECD1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>735</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
 		<key>39F17BB0-D9AF-4B90-8ED8-AC64035A6472</key>
 		<dict>
 			<key>note</key>
@@ -703,13 +710,6 @@ open -g "cleanshot://$1"</string>
 			<integer>305</integer>
 			<key>ypos</key>
 			<integer>225</integer>
-		</dict>
-		<key>28F2FE1A-CFFB-485B-89F2-28C683D2ECD1</key>
-		<dict>
-			<key>xpos</key>
-			<integer>735</integer>
-			<key>ypos</key>
-			<integer>220</integer>
 		</dict>
 		<key>B0B38CAD-6949-4F11-9B8E-B53F7538F5EB</key>
 		<dict>
