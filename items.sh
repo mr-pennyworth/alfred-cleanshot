@@ -67,6 +67,15 @@ cat <<EOF
       },
       "uid": "capture-window"
     },
+    {
+      "title": "Capture Window and Pin to the Screen",
+      "subtitle": "Take a screenshot of a window and pin to the screen.",
+      "arg": "capture-window-and-pin",
+      "icon": {
+        "path": "icons/capture-window-and-pin.png"
+      },
+      "uid": "capture-window-and-pin"
+    },
 EOF
 
 if ./pngpaste /tmp/img.png; then
