@@ -1,8 +1,12 @@
-# Alfred Workflow to Trigger CleanShot Actions
+<h1 align="center">
+  
 <a href="https://github.com/mr-pennyworth/alfred-cleanshot/releases/latest/">
+  <img src="icon.png" width="16%"><br/>
   <img alt="Download"
-       src="https://img.shields.io/github/downloads/mr-pennyworth/alfred-cleanshot/total?color=purple&label=Download">
-</a><br/>
+       src="https://img.shields.io/github/downloads/mr-pennyworth/alfred-cleanshot/total?color=purple&label=Download"><br/>
+</a>
+  CleanShot X 🤝 Alfred
+</h1>
 
 ### Requiremens
 - [Alfred 4](https://alfredapp.com/)
