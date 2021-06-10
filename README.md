@@ -8,6 +8,9 @@
 - [Alfred 4](https://alfredapp.com/)
 - [CleanShot X](https://cleanshot.com/) (version `3.5.1` or above)
 
+### Installation
+Before using the workflow, run `.setup-cleanshot` in Alfred.
+
 ### Features
 - Capture Area
 - Capture Area and Pin to the Screen

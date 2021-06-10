@@ -173,6 +173,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>FB661BF6-615D-4BDB-B079-847ABCABADCE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>86932CE5-046C-42DE-A99D-F9C5892BAABE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Mr. Pennyworth</string>
@@ -203,6 +216,51 @@
 			<string>E7E3A0BD-6513-455B-A6B5-0AB88A9C96B1</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>.setup-cleanshot</string>
+				<key>subtext</key>
+				<string>.setup-cleanshot</string>
+				<key>text</key>
+				<string>Setup Cleanshot</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>FB661BF6-615D-4BDB-B079-847ABCABADCE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>xattr -d com.apple.quarantine ./desktop-icons-visible
+xattr -d com.apple.quarantine ./pngpaste</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>86932CE5-046C-42DE-A99D-F9C5892BAABE</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -708,6 +766,15 @@
 			<key>ypos</key>
 			<integer>225</integer>
 		</dict>
+		<key>86932CE5-046C-42DE-A99D-F9C5892BAABE</key>
+		<dict>
+			<key>note</key>
+			<string>de-quarentine binaries</string>
+			<key>xpos</key>
+			<integer>155</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
 		<key>B0B38CAD-6949-4F11-9B8E-B53F7538F5EB</key>
 		<dict>
 			<key>xpos</key>
@@ -719,6 +786,13 @@
 		<dict>
 			<key>xpos</key>
 			<integer>475</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>FB661BF6-615D-4BDB-B079-847ABCABADCE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
