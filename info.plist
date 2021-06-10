@@ -408,10 +408,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string># Doing this instead of "Open URL" because the
-# "Toggle Desktop Icons" url doesn't work properly with that.
-
-open -g "cleanshot://$1"</string>
+				<string>./scripts/$1.sh</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>

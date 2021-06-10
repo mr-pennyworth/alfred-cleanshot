@@ -51,8 +51,7 @@ cat <<EOF
     },
 EOF
 
-imgpath="$(mktemp)"
-if ./pngpaste "$imgpath"; then
+if ./pngpaste /tmp/img.png; then
 cat <<EOF
     {
       "title": "Annotate Image from Clipboard",
@@ -66,7 +65,7 @@ cat <<EOF
     {
       "title": "Pin to the Screen from Clipboard",
       "subtitle": "Pin the image on clipboard to the screen.",
-      "arg": "share-extension-pin?filepath=$imgpath",
+      "arg": "pin-from-clipboard",
       "icon": {
         "path": "icons/pin-clipboard.png"
       },

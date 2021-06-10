@@ -22,6 +22,7 @@ WF_FILES = [
   'info.plist',
   'pngpaste',
   'README.md',
+  'scripts',
 ]
 
 
