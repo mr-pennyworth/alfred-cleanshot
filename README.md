@@ -9,9 +9,10 @@
 - [CleanShot X](https://cleanshot.com/) (version `3.5.1` or above)
 
 ### Screenshots
-![all actions](screenshots/actions-list.png)
+![all actions part 1](screenshots/actions-list-1.png)
+![all actions part 2](screenshots/actions-list-2.png)
+![clipboard actions](screenshots/clipbord-actions-list.png)
 ![file actions](screenshots/file-actions.png)
-![workflow](screenshots/workflow-editor.png)
 
 ### Credits
 This workflow is based on [Raycast][1]'s [CleanShot X script commands][2].
