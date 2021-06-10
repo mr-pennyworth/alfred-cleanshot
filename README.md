@@ -17,7 +17,7 @@
 This workflow is based on [Raycast][1]'s [CleanShot X script commands][2].
 
 ### Icon Credits
-Some icons from by srip and [freepik][3] from [flaticon][4].
+Some icons from by srip, Gregor Cresnar, and [freepik][3] from [flaticon][4].
 
 [1]: https://raycast.com
 [2]: https://github.com/raycast/script-commands/tree/master/commands/apps/cleanshot
