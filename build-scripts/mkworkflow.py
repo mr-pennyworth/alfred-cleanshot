@@ -17,6 +17,7 @@ WF_FILES = [
   'B0B38CAD-6949-4F11-9B8E-B53F7538F5EB.png',
   'E7E3A0BD-6513-455B-A6B5-0AB88A9C96B1.png',
   'desktop-icons-visible',
+  'firstrun.sh',
   'icon.png',
   'icons',
   'info.plist',
@@ -49,6 +50,16 @@ def plistWrite(obj, path):
     return plistlib.dump(obj, f)
 
 
+def fileRead(path):
+  with open(path) as f:
+    return f.read()
+
+
+def fileWrite(contents, path):
+  with open(path, 'w') as f:
+    f.write(contents)
+
+
 @contextmanager
 def cwd(dir):
   old_wd = os.path.abspath(os.curdir)
@@ -73,7 +84,9 @@ def make_export_ready(plist_path):
 if __name__ == '__main__':
   subprocess.call(['./build-scripts/mkapps.sh'])
   copy(WF_FILES, BUILD_DIR)
-  wf_name = make_export_ready(f'{BUILD_DIR}/info.plist')
+  plist_path = f'{BUILD_DIR}/info.plist'
+  fileWrite(fileRead(plist_path).replace('items.sh', 'firstrun.sh'), plist_path)
+  wf_name = make_export_ready(plist_path)
   with cwd(BUILD_DIR):
     subprocess.call(
       ['zip', '-q', '-r', f'../{wf_name}.alfredworkflow'] + WF_FILES
