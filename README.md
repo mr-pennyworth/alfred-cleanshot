@@ -10,7 +10,7 @@
 
 ### Requiremens
 - [Alfred 4](https://alfredapp.com/)
-- [CleanShot X](https://cleanshot.com/) (version `3.5.1` or above)
+- [CleanShot X](https://cleanshot.com/) (version `3.8.1` or above)
 
 ### Features
 - Capture Area
@@ -20,6 +20,7 @@
 - Capture Fullscreen and Pin to the Screen
 - Capture Fullscreen and Annotate
 - Capture Previous Area
+- Capture Text using OCR
 - Capture Window
 - Capture Window and Pin to the Screen
 - Capture Window and Annotate

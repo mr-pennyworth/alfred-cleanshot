@@ -103,6 +103,16 @@ cat <<EOF
       },
       "uid": "capture-window-and-annotate"
     },
+    {
+      "title": "Capture Text",
+      "subtitle": "Capture text from a specific area on your screen.",
+      "match": "capture text, recognize text, ocr",
+      "arg": "capture-text",
+      "icon": {
+        "path": "icons/capture-text.png"
+      },
+      "uid": "capture-text"
+    },
 EOF
 
 if ./pngpaste /tmp/img.png; then
