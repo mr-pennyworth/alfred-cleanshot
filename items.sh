@@ -14,6 +14,15 @@ cat <<EOF
 {
   "items": [
     {
+      "title": "All in One",
+      "subtitle": "All in One",
+      "arg": "all-in-one",
+      "icon": {
+        "path": "icons/all-in-one.png"
+      },
+      "uid": "all-in-one"
+    },
+    {
       "title": "Capture Area",
       "subtitle": "Take a screenshot of a specific area on your screen.",
       "arg": "capture-area",
