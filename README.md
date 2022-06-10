@@ -10,7 +10,7 @@
 
 ### Requiremens
 - [Alfred 4](https://alfredapp.com/)
-- [CleanShot X](https://cleanshot.com/) (version `3.8.1` or above)
+- [CleanShot X](https://cleanshot.com/) (version `4.2` or above)
 
 ### Features
 - Capture Area
