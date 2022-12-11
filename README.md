@@ -33,6 +33,7 @@
 - Scrolling Capture
 - Self Timer
 - Show / Hide Desktop Icons
+- Open All-in-One Mode
 
 ### Screenshots
 ![all actions part 1](screenshots/actions-list-1.png)
