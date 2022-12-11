@@ -203,6 +203,15 @@ cat <<EOF
       "uid": "self-timer"
     },
     {
+      "title": "History",
+      "subtitle": "Open capture history.",
+      "arg": "open-history",
+      "icon": {
+        "path": "icons/open-history.png"
+      },
+      "uid": "open-history"
+    },
+    {
       "title": "$toggle_icons_title",
       "subtitle": "$toggle_icons_subtitle",
       "arg": "toggle-desktop-icons",
